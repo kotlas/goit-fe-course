@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: Pathway Gothic One;
+    background-image: url("../images/see.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    min-height: 100vh;
+    font-size: 16px;
+
+  }
+.wrapper {
+    width: 480px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 40px;
+    background-color: #fff;
+}
+.article {
+  margin-bottom:50px; 
+}
+.articletwo {
+  border-top-color:#dedbdb;
+  border-top-width: 2px;
+  border-top-style: solid;
+  padding-top: 50px;    
+}
+.article img {
+width: 100%;
+}
+.title {
+  text-transform: uppercase;
+  margin-bottom: 20px; 
+}
+.name {
+  margin-top:20px;
+}
+.text {
+  margin-top:20px;   
+}
+.menu {
+  padding-left: 20px; 
+  margin-top: 50px;
+  column-count:2;
+  column-gap: 40px;
+  
+  
+}
+.point {
+ padding: 10px; 
+ display: inline-block;       
+}
