@@ -39,7 +39,7 @@ body {
   margin-bottom: 20px;
 }
 .name {
-  padding-top: 20px;
+ margin-top:20px; 
 }
 .text {
   margin-top: 20px;
@@ -54,8 +54,11 @@ body {
   list-style-type: none;
 }
 .point {
-  padding: 10px;
+  margin-bottom: 10px;
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
+}
+.articlethree {
+  margin-bottom: 50px;
 }
