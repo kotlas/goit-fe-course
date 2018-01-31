@@ -1,0 +1,340 @@
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: Pathway Gothic One;
+  background-image: url("../images/see.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.wrapper {
+  width: 1020px;
+  /*height: 1410px;*/
+  margin: auto;
+  margin-bottom: 70px;
+}
+.navigation {
+  width: 1020px;
+  height: 230px;
+  position: relative;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Pathway Gothic One", serif;
+  display: inline-block;
+  font-size: 26px;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.menu-item {
+  position: relative;
+  display: inline-block;
+  margin-right: 50px;
+}
+.menu-link {
+  display: block;
+  padding: 5px;
+  color: #fff;
+}
+.menu-item:hover > .submenu {
+  display: block;
+}
+.menu-link:hover {
+  color: #263555;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background: #fff;
+  margin-top: 10px;
+  border-radius: 10%;
+}
+.submenu::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  top: -5px;
+  left: 24px;
+}
+
+.submenu-link {
+  display: block;
+  padding: 5px;
+  color: #263555;
+  font-size: 18px;
+  text-align: center;
+}
+.logo {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Dorsa", serif;
+  font-size: 50px;
+  color: #263555;
+  text-align: center;
+  line-height: 140px;
+  border-radius: 50%;
+  vertical-align: middle;
+  position: absolute;
+  left: 425px;
+  top: 30px;
+}
+
+.menu-item:nth-child(3) {
+  margin-right: 285px;
+}
+.menu-item:nth-child(6) {
+  margin-right: 0px;
+}
+.main {
+  background-color: #fff;
+  width: 900px;
+  height: 1050px;
+  padding: 60px;
+}
+.carousel {
+  width: 900px;
+  position: relative;
+}
+.carousel img {
+  display: block;
+  object-fit: cover;
+  width: 900px;
+  height: 580px;
+}
+
+.slick-arrow {
+  border: 0;
+  position: absolute;
+  /*height: 50px;
+  width: 60px;*/
+  z-index: 10;
+  background-color:  #38afe5;
+  color: #ffffff;
+  cursor: pointer;
+  border-color:transparent;
+}
+
+.slick-arrow:hover {
+  background-color: #8dc63f;
+}
+
+.slick-prev {
+  display: inline-block;
+  width: 45px;
+  height: 90px;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  left: 35px;
+  bottom: 35px;
+
+}
+
+.slick-next {
+  display: inline-block;
+  width: 45px;
+  height: 90px;
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+  left: 80px;
+  bottom: 35px;
+}
+.slick-next::before {
+  content: " ➞ ";
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 10px;
+  bottom: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+.slick-prev::before {
+  content: " ⬅ ";
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.promo {
+  background: #fff;
+  text-transform: uppercase;
+  color: #263555;
+  font-family: "Pathway Gothic One", serif;
+  font-size: 24px;
+  width: 220px;
+  display: inline-block;
+  padding: 20px;
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  top: 215px;
+  
+}
+
+.slogan {
+  background: #38afe5;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Pathway Gothic One", serif;
+  font-size: 30px;
+  width: 275px;
+  display: inline-block;
+  padding: 20px;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 279px;
+  
+}
+.information {
+  text-transform: uppercase;
+  color: #263555;
+  font-family: "Pathway Gothic One", serif;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.ways {
+  display: inline-block;
+}
+.destination {
+  display: inline-block;
+  width: 285px;
+  height: 270px;
+  margin-right: 20px;
+  position: relative;
+}
+.destination:nth-child(3) {
+  margin-right: 0px;
+}
+
+.destination img {
+  display: block;
+  background-size: cover;
+  width: 285px;
+  height: 270px;
+}
+
+.destination:hover > .city {
+  display: block;
+}
+.city {
+  display: none;
+  position: absolute;
+  width: 145px;
+  height: 270px;
+  left: 0;
+  bottom: 0px;
+  background: #193149;
+}
+.name {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Pathway Gothic One", serif;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.text {
+  font-size: 10px;
+  color: #fff;
+  font-family: "Arial", serif;
+  text-align: justify;
+  line-height: 14px;
+  padding: 10px;
+}
+.bottom {
+  display: inline-block;
+  font-size: 12px;
+  color: #000;
+  font-family: "Arial", serif;
+  background: #fff;
+  position: absolute;
+  right: 12px;
+  bottom: 20px;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+  line-height: 20px;
+}
+
+/*slider {
+  width: 94px;
+  height: 90px;
+  position: absolute;
+  left: 35px;
+  bottom: 35px;
+}
+
+.sliderpr {
+  display: inline-block;
+  width: 45px;
+  height: 90px;
+  background-color: #38afe5;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+.slidernext {
+  display: inline-block;
+  width: 45px;
+  height: 90px;
+  background-color: #38afe5;
+  margin-left: -4px;
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+.slidernext:hover {
+  background-color: #8dc63f;
+}
+.sliderpr:hover {
+  background-color: #8dc63f;
+}
+.slidernext::before {
+  content: " ➞ ";
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 60px;
+  bottom: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+.sliderpr::before {
+  content: " ⬅ ";
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+*/
