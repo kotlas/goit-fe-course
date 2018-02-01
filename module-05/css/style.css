@@ -29,7 +29,7 @@ a {
   text-transform: uppercase;
   color: #fff;
   font-family: "Pathway Gothic One", serif;
-  display: inline-block;
+  display: block;
   font-size: 26px;
   position: relative;
   padding-top: 80px;
@@ -83,7 +83,7 @@ a {
   text-align: center;
 }
 .logo {
-  display: inline-block;
+  display: block;
   width: 140px;
   height: 140px;
   background-color: #fff;
@@ -147,6 +147,7 @@ a {
   border-radius: 100% 0 0 100% / 50% 0 0 50%;
   left: 35px;
   bottom: 35px;
+  outline: none;
 
 }
 
@@ -157,6 +158,7 @@ a {
   border-radius: 0 100% 100% 0 / 0 50% 50% 0;
   left: 80px;
   bottom: 35px;
+  outline:none; 
 }
 .slick-next::before {
   content: " ➞ ";
@@ -194,6 +196,7 @@ a {
   position: absolute;
   left: 0px;
   top: 215px;
+  z-index:1; 
   
 }
 
@@ -210,6 +213,7 @@ a {
   position: absolute;
   left: 0;
   top: 279px;
+  z-index: 1;
   
 }
 .information {
@@ -269,7 +273,7 @@ a {
   font-family: "Arial", serif;
   text-align: justify;
   line-height: 14px;
-  padding: 10px;
+  margin: 10px;
 }
 .bottom {
   display: inline-block;
@@ -286,55 +290,6 @@ a {
   line-height: 20px;
 }
 
-/*slider {
-  width: 94px;
-  height: 90px;
-  position: absolute;
-  left: 35px;
-  bottom: 35px;
+.slider {
+  position: relative;
 }
-
-.sliderpr {
-  display: inline-block;
-  width: 45px;
-  height: 90px;
-  background-color: #38afe5;
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
-}
-.slidernext {
-  display: inline-block;
-  width: 45px;
-  height: 90px;
-  background-color: #38afe5;
-  margin-left: -4px;
-  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
-}
-.slidernext:hover {
-  background-color: #8dc63f;
-}
-.sliderpr:hover {
-  background-color: #8dc63f;
-}
-.slidernext::before {
-  content: " ➞ ";
-  display: block;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  left: 60px;
-  bottom: 40px;
-  color: #fff;
-  font-weight: bold;
-}
-.sliderpr::before {
-  content: " ⬅ ";
-  display: block;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  left: 15px;
-  bottom: 40px;
-  color: #fff;
-  font-weight: bold;
-}
-*/
