@@ -1,0 +1,154 @@
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: Pathway Gothic One;
+  background-image: url("../images/see.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.wrapper {
+  width: 1020px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.navigation {
+  width: 1020px;
+  height: 230px;
+  position: relative;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Pathway Gothic One", serif;
+  display: block;
+  font-size: 26px;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.menu-item {
+  position: relative;
+  display: inline-block;
+  margin-right: 50px;
+}
+.menu-link {
+  display: block;
+  padding: 5px;
+  color: #fff;
+}
+.menu-item:hover > .submenu {
+  display: block;
+}
+.menu-link:hover {
+  color: #263555;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background: #fff;
+  margin-top: 10px;
+  border-radius: 10%;
+}
+.submenu::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent #fff transparent;
+  position: absolute;
+  top: -5px;
+  left: 24px;
+}
+
+.submenu-link {
+  display: block;
+  padding: 5px;
+  color: #263555;
+  font-size: 18px;
+  text-align: center;
+}
+.logo {
+  display: block;
+  width: 140px;
+  height: 140px;
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Dorsa", serif;
+  font-size: 50px;
+  color: #263555;
+  text-align: center;
+  line-height: 140px;
+  border-radius: 50%;
+  vertical-align: middle;
+  position: absolute;
+  left: 425px;
+  top: 30px;
+}
+
+.menu-item:nth-child(3) {
+  margin-right: 285px;
+}
+.menu-item:nth-child(6) {
+  margin-right: 0px;
+}
+.main {
+  background-color: #fff;
+  width: 900px;
+  height: 980px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.image img {
+  display: block;
+  background-size: cover;
+  width: 290px;
+  height: 150px;
+}
+
+.information {
+  text-transform: uppercase;
+  color: #263555;
+  font-family: "Pathway Gothic One", serif;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.gallery {
+  height: 540px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.image:hover:after {
+        content:"🔍";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 15px;
+        box-shadow: 0 0 0 10000px rgba(0,0,0,0.4);
+      }
+.image{
+    position: relative;
+    overflow: hidden;
+}
