@@ -16,7 +16,6 @@
 }
 
 .masthead-wrapper {
-  position: relative;
   margin-bottom: 4.375rem;
   height: 33.75rem;
   background-image: linear-gradient(
@@ -33,12 +32,13 @@
 body {
   min-height: 100vh;
   font-size: 16px;
-  min-width: 320px;
-  max-width: 940px;
-  margin: 0 auto;
   text-align: center;
 }
-
+.container banner{
+  min-width: 20rem;
+  max-width: 58.75rem;
+  margin: 0 auto;
+}
 .logo {
   display: block;
   color: var(--white-color);
@@ -237,7 +237,7 @@ body {
   .partner-list-item {
     flex: 0 0 50%;
   }
-  .partner-all {
+  .partner-cards-footer {
     margin-top: 1.5rem;
   }
   .promo {
