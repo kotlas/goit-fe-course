@@ -1,0 +1,10 @@
+.box {
+  width: 480px;
+  height: 320px;
+  background: url('../images/400_200_nature.jpg') no-repeat;
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx){
+  .box{
+   background: url('../images/800_400_nature.jpg') 
+  }
+}

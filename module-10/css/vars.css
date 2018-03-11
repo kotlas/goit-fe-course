@@ -1,0 +1,11 @@
+:root {
+    --red-color: #ff4e50;
+    --orange-color: #ffa507;
+    --blue-color: #4e73db;
+    --green-color: #1cd7ad  ;
+    --primary-white-color: #ffffff;
+    --primary-dark-color: #333333;
+    
+    --primary-font-stack: 'Montserrat', sans-serif;
+    --secondary-font-stack: 'Roboto', sans-serif;
+  }
