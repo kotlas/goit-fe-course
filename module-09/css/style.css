@@ -68,6 +68,9 @@ body {
   text-align: center;
   /*margin-top: 3rem;*/
 }
+.row .justify-content-md-center {
+  margin-top: 3rem;
+}
 .nav-item:hover {
   border: solid 0.125rem var(--white-color);
   border-radius: 50px 50px 50px 50px;
