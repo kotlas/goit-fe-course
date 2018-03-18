@@ -85,6 +85,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0;
 }
 
 .nav__item {
@@ -142,19 +143,19 @@ img {
   fill: var(--yellow-color);
 }
 /* HERO */
-.hero {
+.baner__hero {
   width: 840px;
   text-align: center;
   margin: auto;
 }
-.hero-promo {
+.hero__promo {
   display: block;
   color: var(--primary-white-color);
   font-family: var(--accent-font-stack);
   font-size: 72px;
   font-weight: 400;
 }
-.hero-title {
+.hero__title {
   margin-bottom: 120px;
   margin-top: 50px;
   color: var(--primary-white-color);
@@ -165,7 +166,7 @@ img {
   text-transform: uppercase;
 }
 
-.hero-btn {
+.hero__btn {
   display: inline-block;
   width: 160px;
   height: 40px;
@@ -193,14 +194,14 @@ img {
   padding-bottom: 80px;
 }
 
-.section-header {
+.header__baner {
   width: 80%;
   margin: auto;
   text-align: center;
   margin-bottom: 90px;
 }
 
-.section-header__caption {
+.header__caption {
   display: block;
   margin-bottom: 24px;
   color: #333;
@@ -209,16 +210,17 @@ img {
   font-weight: 400;
 }
 
-.section-header__title {
+.header__title {
   margin-bottom: 46px;
   color: #333;
   font-family: var(--primary-font-stack);
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top:0px;
 }
 
-.section-header__title::after {
+.header__title::after {
   display: block;
   content: "";
   width: 60px;
@@ -229,12 +231,13 @@ img {
   background-color: #f38181;
 }
 
-.section-header__text {
+.header__text {
   color: #999;
   font-family: var(--secondary--font-stack);
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
+  margin:0px;
 }
 
 /* TEAM LIST */
@@ -374,6 +377,7 @@ img {
           align-items: center;
   padding: 31px 0;
   background-color: #ffffff;
+  margin:0px;
 }
 
 .team-card__name {
@@ -415,9 +419,11 @@ img {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 25%;
           flex: 0 0 25%;
-  height: 160px;
   position: relative;
   padding-left: 70px;
+}
+.service-list__item:nth-child(-n+3){
+  margin-bottom: 60px;
 }
 .service {
   padding-bottom: 0px;
@@ -515,7 +521,7 @@ img {
   font-size: 16px;
   font-weight: 400;
 }
-.main-footer {
+.main-footer__baner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
