@@ -428,84 +428,15 @@ img {
 .service {
   padding-bottom: 0px;
 }
-
-.one::before {
+.service-list__img{
+  display: block;
+  width: 35px;
+  height: 35px;
   position: absolute;
   top: 15px;
   left: 15px;
   display: inline-block;
   content: "";
-  width: 35px;
-  height: 35px;
-  background-image: url("../images/icon/icon-alarm.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.two::before {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  display: inline-block;
-  content: "";
-  width: 35px;
-  height: 35px;
-  background-image: url("../images/icon/icon-graph.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.three::before {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  display: inline-block;
-  content: "";
-  width: 35px;
-  height: 35px;
-  background-image: url("../images/icon/icon-computer.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.four::before {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  display: inline-block;
-  content: "";
-  width: 35px;
-  height: 35px;
-  background-image: url("../images/icon/icon-book.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.five::before {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  display: inline-block;
-  content: "";
-  width: 35px;
-  height: 35px;
-  background-image: url("../images/icon/icon-home.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.six::before {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  display: inline-block;
-  content: "";
-  width: 35px;
-  height: 35px;
-  background-image: url("../images/icon/icon-image.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .service-list__title {
