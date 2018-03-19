@@ -1,0 +1,37 @@
+/*
+   Import partials below
+*/
+@import "normalize";
+@import "base";
+@import "vars";
+@import "head";
+@import "container-section";
+@import "service-list";
+@import "team-list";
+@import "footer";
+
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.banner {
+  display: flex;
+  min-height: 1000px;
+}
+
+.team-wrapper {
+  background-color: #ffffff;
+}
+
+.service-wrapper {
+  background-color: #ffffff;
+}
+

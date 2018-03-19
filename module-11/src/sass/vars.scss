@@ -1,0 +1,17 @@
+$pink-color: #f38181;
+$yellow-color: #fce38a;
+$pale-color: #eaffd0;
+$aqua-color: #95e1d3;
+$primary-white-color: #ffffff;
+$primary-dark-color: #333333;
+$secondary-dark-color: #999999;
+$blue-color: #95e1d3;
+$primary-font-stack: "Montserrat", sans-serif;
+$accent-font-stack: "Kaushan Script", cursive;
+$secondary-font-stack: "Roboto", sans-serif;
+
+@mixin pseudo($display: inline-block, $pos: absolute, $content: "") {
+  content: $content;
+  display: $display;
+  position: $pos;
+}

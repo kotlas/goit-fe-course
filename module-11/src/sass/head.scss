@@ -1,0 +1,131 @@
+.masthead-wrapper {
+  background-image: linear-gradient(
+      to top,
+      rgba(252, 227, 138, 0.81) 0%,
+      rgba(243, 129, 129, 0.81) 100%
+    ),
+    url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url("../img/banner@2x.jpg");
+  }
+}
+
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+
+.logo {
+  display: inline-block;
+  color: $primary-white-color;
+  font-family: $primary-font-stack;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.logo span {
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  margin: 0;
+}
+
+.nav__item {
+  display: inline-block;
+  margin-left: 60px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-left: 30px;
+  }
+}
+
+.nav__link {
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+  color: $primary-white-color;
+  font-family: $primary-font-stack;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    color: $yellow-color;
+    border-color: $yellow-color;
+  }
+}
+
+.nav__busket {
+  display: inline-block;
+  fill: $primary-white-color;
+  height: 15px;
+  width: 15px;
+
+  &:hover {
+    fill: $yellow-color;
+  }
+}
+
+.nav__search {
+  display: inline-block;
+  fill: $primary-white-color;
+  height: 15px;
+  width: 15px;
+
+  &:hover {
+    fill: $yellow-color;
+  }
+}
+
+.baner__hero {
+  width: 840px;
+  text-align: center;
+  margin: auto;
+}
+
+.hero__promo {
+  display: block;
+  color: $primary-white-color;
+  font-family: $accent-font-stack;
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.hero__title {
+  margin-bottom: 120px;
+  margin-top: 50px;
+  color: $primary-white-color;
+  font-family: $primary-font-stack;
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 140px;
+  text-transform: uppercase;
+}
+
+.hero__btn {
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 3px solid white;
+  color: $primary-white-color;
+  font-family: $primary-font-stack;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
